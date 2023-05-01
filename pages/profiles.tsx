@@ -14,7 +14,7 @@ export async function getServerSideProps(context: NextPageContext) {
       },
     };
   }
-
+  // return something for ignore error
   return {
     props: {},
   };
